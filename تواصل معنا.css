@@ -1,0 +1,156 @@
+.contact-info .box i {
+    margin-left: 8px;
+    color: #a855f7;
+    font-size: 20px;
+}
+
+button.primary i {
+    margin-left: 8px;
+}
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background: radial-gradient(circle at center, #0b0b0f 60%, #050509 100%);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(20, 20, 30, 0.8);
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #a855f7;
+    text-shadow: 0 0 10px #a855f7;
+}
+
+nav a {
+    margin: 0 12px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a855f7;
+    text-shadow: 0 0 8px #a855f7;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url("dark-bg-contact.jpg") center/cover no-repeat;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0 0 20px #a855f7;
+}
+
+.hero h2 {
+    font-size: 26px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px auto;
+    width: 70%;
+    color: #ddd;
+    line-height: 1.8;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #111;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-info .box {
+    background: rgba(30, 30, 40, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    transition: 0.3s;
+}
+
+.contact-info .box:hover {
+    box-shadow: 0 0 15px #a855f7;
+    transform: translateY(-5px);
+}
+
+.contact-info a {
+    color: #a855f7;
+    text-decoration: none;
+}
+
+.form {
+    text-align: center;
+    padding: 60px 20px;
+    background: #111;
+}
+
+.form h2 {
+    font-size: 36px;
+    color: #a855f7;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 60%;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #222;
+    color: white;
+}
+
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+button.primary {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #a855f7, #6b21a8);
+    color: white;
+    box-shadow: 0 0 15px #a855f7;
+    transition: 0.3s;
+}
+
+button.primary:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0b0b0f;
+    border-top: 1px solid #222;
+    color: #aaa;
+}

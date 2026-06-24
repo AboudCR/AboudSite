@@ -1,0 +1,117 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: radial-gradient(circle at center, #0b0b0f 60%, #050509 100%);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: rgba(20, 20, 30, 0.8);
+}
+
+.logo {
+    font-size: 28px;
+    color: #a855f7;
+}
+
+nav a {
+    margin: 0 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #a855f7;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 26px;
+    color: #ccc;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px auto;
+    width: 70%;
+    color: #ddd;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+button.primary {
+    background: linear-gradient(90deg, #a855f7, #6b21a8);
+}
+
+button.primary:hover {
+ background:white;
+    color:#a855f7;
+}
+
+button.secondary:hover {
+    background: #a855f7;
+    color: white;
+}
+
+.team {
+    text-align: center;
+    padding: 60px 20px;
+    background: #111;
+}
+
+.team h2 {
+    font-size: 36px;
+    color: #a855f7;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    background: rgba(30, 30, 40, 0.8);
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px #a855f7;
+}
+
+.card img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #fff;
+}
+
+.card p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    background: #0b0b0f;
+    color: #aaa;
+}

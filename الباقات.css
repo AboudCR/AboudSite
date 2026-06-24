@@ -1,0 +1,130 @@
+body {
+    background: radial-gradient(circle at center, #0b0b0f 60%, #050509 100%);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(20, 20, 30, 0.8);
+}
+
+.logo {
+    font-size: 28px;
+    color: #a855f7;
+}
+
+nav a {
+    margin: 0 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #a855f7;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 26px;
+    color: #ccc;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px auto;
+    width: 70%;
+    color: #ddd;
+}
+
+.pricing {
+    text-align: center;
+    padding: 60px 20px;
+    background: #111;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    color: #a855f7;
+}
+
+.tables {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.table {
+    background: rgba(30, 30, 40, 0.8);
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.table:hover {
+    box-shadow: 0 0 15px #a855f7;
+    transform: translateY(-5px);
+}
+
+.table h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.table .price {
+    font-size: 28px;
+    color: #a855f7;
+    margin: 15px 0;
+}
+
+.table ul {
+    list-style: none;
+    padding: 0;
+    color: #ccc;
+    text-align: right;
+}
+
+.table ul li {
+    margin: 8px 0;
+}
+
+button.primary {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #a855f7, #6b21a8);
+    color: white;
+    box-shadow: 0 0 15px #a855f7;
+    transition: 0.3s;
+}
+
+button.primary:hover {
+    transform: scale(1.05);
+}
+
+.popular {
+    border: 2px solid #a855f7;
+    box-shadow: 0 0 20px #a855f7;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0b0b0f;
+    border-top: 1px solid #222;
+    color: #aaa;
+}

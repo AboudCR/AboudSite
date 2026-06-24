@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background: radial-gradient(circle at center, #0b0b0f 60%, #050509 100%);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(20, 20, 30, 0.8);
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #a855f7;
+    text-shadow: 0 0 10px #a855f7;
+}
+
+nav a {
+    margin: 0 12px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a855f7;
+    text-shadow: 0 0 8px #a855f7;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url("net.jpg") center/cover no-repeat;
+}
+
+.hero h1 {
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 0 0 20px #a855f7;
+}
+
+.hero h1 span {
+    color: #a855f7;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px auto;
+    width: 60%;
+    color: #ddd;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.primary {
+    background: linear-gradient(90deg, #a855f7, #6b21a8);
+    color: white;
+    box-shadow: 0 0 15px #a855f7;
+}
+
+button.primary:hover {
+    transform: scale(1.05);
+}
+
+button.secondary {
+    background: transparent;
+    border: 2px solid #a855f7;
+    color: #a855f7;
+}
+
+button.secondary:hover {
+    background: #a855f7;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background: #111;
+}
+
+.features .box {
+    text-align: center;
+    padding: 25px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 200px;
+    background: rgba(30, 30, 40, 0.8);
+    transition: 0.3s;
+}
+
+.features .box:hover {
+    box-shadow: 0 0 15px #a855f7;
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0b0b0f;
+    border-top: 1px solid #222;
+    color: #aaa;
+}
